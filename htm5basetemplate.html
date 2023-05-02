@@ -1,0 +1,183 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <meta charset="UTF-8"> 
+    <title>Заголовок страницы</title> 
+    <link rel="stylesheet" href="style.css"> 
+  </head> 
+<style>
+/* стили для тега <header> */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* стили для тега <navbar> */
+navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+navbar li {
+  margin: 0 10px;
+}
+
+navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+navbar li a:hover {
+  text-decoration: underline;
+}
+
+/* стили для тега <main> */
+main {
+  display: flex;
+}
+
+/* стили для тега <section> */
+section {
+  flex: 3;
+  padding: 10px;
+}
+
+/* стили для тега <article> */
+article {
+  margin: 10px 0;
+}
+
+article h3 {
+  margin: 0;
+}
+
+article p {
+  margin: 5px 0 0 0;
+}
+
+/* стили для тега <sidebar> */
+sidebar {
+  flex: 1;
+  padding: 10px;
+}
+
+sidebar h2 {
+  margin: 0 0 10px 0;
+}
+
+sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+sidebar li {
+  margin: 5px 0;
+}
+
+sidebar li a {
+  color: #333;
+  text-decoration: none;
+}
+
+sidebar li a:hover {
+  text-decoration: underline;
+}
+
+/* стили для тега <footer> */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer navbar ul {
+  display: flex;
+}
+
+footer navbar li {
+  margin: 0 10px;
+}
+
+footer navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer navbar li a:hover {
+  text-decoration: underline;
+}
+
+</style>
+
+
+  <body> 
+
+<header>
+  <navbar>
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </navbar>
+</header>
+<main>
+  <section>
+    <h2>Название раздела</h2>
+    <article>
+      <h3>Название статьи 1</h3>
+      <p>Текст статьи 1</p>
+    </article>
+    <article>
+      <h3>Название статьи 2</h3>
+      <p>Текст статьи 2</p>
+    </article>
+  </section>
+  <sidebar>
+    <h2>Меню</h2>
+    <ul>
+      <li><a href="#">Ссылка 1</a></li>
+      <li><a href="#">Ссылка 2</a></li>
+      <li><a href="#">Ссылка 3</a></li>
+    </ul>
+  </sidebar>
+</main>
+<footer>
+  <p>© 2023 Пример компании. Все права защищены.</p>
+  <navbar>
+    <ul>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Instagram</a></li>
+    </ul>
+  </navbar>
+</footer>
+
+
+  </body> 
+</html> 
+
+
+<!-- 
+Здесь <header>, <main> и <footer> являются контейнерами, а <navbar>, <sidebar>, <article>, <section> и <p> - контентом.
+
+Тег <header> содержит внутри себя тег <navbar>, который является его контентом. Тег <main> содержит в себе теги <section>, <article> и <sidebar>, которые являются его контентом. Тег <footer> содержит внутри себя тег <navbar> и <p>, которые являются его контентом.
+
+Такой подход к верстке позволяет более логично и удобно структурировать контент на странице, что способствует лучшей доступности и семантичности сайта.
+-->
+
+
